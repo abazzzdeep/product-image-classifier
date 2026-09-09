@@ -1,0 +1,33 @@
+# Data
+data/raw/
+data/processed/
+*.zip
+
+# Models
+models/*.h5
+models/*.pt
+models/*.pth
+
+# Kaggle credentials — NEVER commit this
+kaggle.json
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+.env.*
+!.env.example
+venv/
+
+# Credentials and private keys
+credentials*.json
+secrets.*
+*.pem
+*.key
